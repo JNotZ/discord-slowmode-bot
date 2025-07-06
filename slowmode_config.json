@@ -1,0 +1,47 @@
+{
+  "schedules": {
+    "example_schedule": {
+      "channel_id": 123456789012345678,
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "slowmode_seconds": 30,
+      "timezone": "UTC",
+      "enabled": false
+    },
+    "970907463589183571_1391353505297731665_10:18_10:19_fri,mon,sat,sun,thu,tue,wed": {
+      "channel_id": 1391353505297731665,
+      "start_time": "10:18",
+      "end_time": "10:19",
+      "slowmode_seconds": 30,
+      "timezone": "UTC",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "restore_seconds": 0,
+      "enabled": true
+    },
+    "970907463589183571_1028531156859240508_00:01_23:59_sun": {
+      "channel_id": 1028531156859240508,
+      "start_time": "00:01",
+      "end_time": "23:59",
+      "slowmode_seconds": 1800,
+      "timezone": "UTC",
+      "days": [
+        "sun"
+      ],
+      "restore_seconds": 3600,
+      "enabled": true
+    }
+  },
+  "settings": {
+    "default_slowmode_seconds": 30,
+    "default_timezone": "UTC",
+    "log_level": "INFO"
+  }
+}
